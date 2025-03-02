@@ -5,5 +5,5 @@ $tag = "v$version"
 git add .
 git commit -m "Create new release $version"
 git push
-git tag $version
+git tag $tag
 git push origin tag $tag
