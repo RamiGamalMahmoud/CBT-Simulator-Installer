@@ -1,6 +1,6 @@
 dotnet publish -c Release  ..\..\CBT\ComputerBasedTestsSimulator\ComputerBasedTestsSimulator\ -r win-x64 -o .\publish
 
-$version = "0.0.5"
+$version = "0.0.7"
 $pack_id = "CBT_Simulator"
 $main_exe = "CBT.exe"
 $icon_path = "yafea.ico"
