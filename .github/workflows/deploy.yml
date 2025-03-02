@@ -18,7 +18,7 @@ jobs:
       - name: Create Release on GitHub
         uses: softprops/action-gh-release@v1
         with:
-          tag: ${{ github.ref }}
+          tag: ${{ github.ref_name }}
           files: ./Releases/CBT_Simulator-win-Setup.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
