@@ -1,4 +1,4 @@
-dotnet publish -c Release --self-contained  ..\CBT-Simulator\ComputerBasedTestsSimulator\ -r win-x64 /p:PublishSingleFile=true -o .\Publish
+dotnet publish -c Release ..\CBT-Simulator\ComputerBasedTestsSimulator\ -r win-x64 /p:PublishSingleFile=true -o .\Publish
 ISCC.exe "CBT Simulator Installer Script.iss"
 
 # $version = "0.2.10"
