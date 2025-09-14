@@ -20,7 +20,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag: ${{ github.ref_name }}
-          name: CBT Simulator v${{ github.ref_name }}
-          files: ./Releases/CBT_Simulator_*.exe
+          name: CBT Simulator ${{ github.ref_name }}
+          files: ./Releases/CBT_Simulator_${{ replace(github.ref_name, '.', '_') }}_Setup.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
