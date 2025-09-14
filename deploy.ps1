@@ -1,6 +1,6 @@
 # . .\pac.ps1
-$version = "0.2.16"
-$tag = "v$version"
+$version = "0.2.17"
+$tag = "$version"
 
 git add .
 git commit -m "Create new release $tag"
