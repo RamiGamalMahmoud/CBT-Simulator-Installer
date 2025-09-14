@@ -6,7 +6,7 @@
 #define MySQLServerrName "MySQL80"
 #define Major 0
 #define Minor 2
-#define Patch 10
+#define Patch 11
 
 [Setup]
 AppId={{A130BA2A-F8DA-4AC6-9D9E-96E012C5FCF8}}
