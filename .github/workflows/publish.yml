@@ -21,6 +21,6 @@ jobs:
         with:
           tag: ${{ github.ref_name }}
           name: CBT Simulator ${{ github.ref_name }}
-          files: ./Releases/CBT_Simulator_${{ github.ref_name }}_Setup.exe
+          files: ./Releases/CBT_Simulator_${{ github.ref_name }}_setup.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
