@@ -4,7 +4,6 @@
 #define MyAppVersion "0.2.22"
 #define MyAppPublisher "Yafea"
 #define MyAppExeName "CBT Simulator.exe"
-#define MySQLServerrName "MySQL80"
 
 [Setup]
 AppId={{A130BA2A-F8DA-4AC6-9D9E-96E012C5FCF8}}
