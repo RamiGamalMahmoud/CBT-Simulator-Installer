@@ -6,7 +6,7 @@
 #define MySQLServerrName "MySQL80"
 #define Major 0
 #define Minor 2
-#define Patch 17
+#define Patch 20
 
 [Setup]
 AppId={{A130BA2A-F8DA-4AC6-9D9E-96E012C5FCF8}}
@@ -17,7 +17,7 @@ AppPublisher={#MyAppPublisher}
 DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
-OutputBaseFilename=CBT_Simulator_{#Major}_{#Minor}_{#Patch}_setup
+OutputBaseFilename=CBT_Simulator_{#Major}.{#Minor}.{#Patch}_setup
 OutputDir=Releases
 SetupIconFile=yafea.ico
 SolidCompression=yes
